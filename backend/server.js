@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const app = express();
+const app = express(); 
 
 app.use(express.json());
 app.use(cors());
@@ -10,12 +10,12 @@ let users = [
     {
         id: 1,
         name: 'Juan Dela Cruz',
-        role: 'Student'
+        color: 'Student'
     },
     {
         id: 2,
         name: 'Hedrian Mendoza',
-        role: 'Faculty'
+        color: 'Faculty'
     }
 ]
 
