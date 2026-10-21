@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const PORT = process.env.PORT || 8080;
 
 const app = express(); 
 
@@ -23,6 +24,6 @@ app.get('/api/user', (req, res) => {
     res.json(users);
 })
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
     console.log('Server running 8080');
 })   
