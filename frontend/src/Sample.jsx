@@ -44,7 +44,7 @@ export default function Sample() {
 
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Fruit Management</h2>
+      <h2 className="mb-4">Fruit Management ni Esmiringhoy</h2>
 
       {/* 1. INSERT FORM */}
       <div className="card mb-4">
